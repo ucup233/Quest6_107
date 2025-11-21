@@ -29,7 +29,7 @@ import com.example.week8.model.Siswa
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TampilData(
-    statusUISiswa : Siswa
+    statusUISiswa : Siswa,
     onBackBtnClick: () -> Unit
 ) {
     val items = listOf(
